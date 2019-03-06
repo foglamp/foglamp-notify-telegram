@@ -18,10 +18,25 @@ using some fake data:
 
 https://api.telegram.org/bot110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw/sendMessage?chat_id=123456789&text=AlertMessage
 
-TODO:
-add Telegram resources:
+Telegram resources:
 - Create a BOT
+  - https://core.telegram.org/bots
+  - https://core.telegram.org/bots#6-botfather
+  - https://core.telegram.org/bots/api#sendmessage
 - Get chat_id
+  - Send a message to the new created BOT
+  - https://api.telegram.org/bot<YourBOTToken>/getUpdates
+    "chat":{"id":123456, ....}
+
+Installation
+------------
+
+ The plugin can be installed with given `requirements.sh <requirements.sh>`_ or the following steps:
+
+
+.. code-block:: bash
+
+  $ sudo apt install -y libcurl4-openssl-dev
 
 Build
 -----
