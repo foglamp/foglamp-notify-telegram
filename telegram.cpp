@@ -39,7 +39,6 @@ Telegram::Telegram(ConfigCategory *category)
 	m_token = category->getValue("token");
 	m_chatid = category->getValue("chat_id");
 	m_url = category->getValue("api_url");
-		category->getValue("enable").compare("True") == 0;
 
 	if (m_token.empty() ||
 	    m_chatid.empty() ||
