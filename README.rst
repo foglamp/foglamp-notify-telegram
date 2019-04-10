@@ -140,7 +140,7 @@ Finally, run the ``make_deb`` command:
 
    Populating the package and updating version file...Done.
    Building the new package...
-   dpkg-deb: building package 'foglamp-notify-telegram' in 'foglamp-notify-telegram-1.0.0-x86_64.deb'.
+   dpkg-deb: building package 'foglamp-notify-telegram' in 'foglamp-notify-telegram-1.5.2-x86_64.deb'.
    Building Complete.
    $
 
