@@ -124,7 +124,7 @@ if [ "$(dpkg -s libcurl4-openssl-dev | grep Status)" == "Status: install ok inst
   echo "libcurl4-openssl-dev library is installed"
 else
   echo "libcurl4-openssl-dev library is not present on the machine, installing before building the package"
-  ./requirements.sh
+  sudo ./requirements.sh
 fi
 
 # Build the C plugin
