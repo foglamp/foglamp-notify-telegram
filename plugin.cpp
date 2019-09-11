@@ -1,5 +1,5 @@
 /*
- * FogLAMP Telegram notification delivery plugin.
+ * Fledge Telegram notification delivery plugin.
  *
  * Copyright (c) 2019 Dianomic Systems
  *

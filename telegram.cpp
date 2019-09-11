@@ -1,5 +1,5 @@
 /*
- * FogLAMP Telegram class
+ * Fledge Telegram class
  *
  * Copyright (c) 2019 Dianomic Systems
  *
